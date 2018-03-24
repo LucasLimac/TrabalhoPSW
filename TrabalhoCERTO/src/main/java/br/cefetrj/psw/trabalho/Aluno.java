@@ -18,6 +18,18 @@ public class Aluno {
     private double notafinal;
     private double m1;
     private String situacao;
+    
+    /**
+     * construtor da classe aluno, ou seja, para criar um aluno precisa passar os parametros abaixo
+     * @param nome 
+     * @param nota1
+     * @param frequencia
+     * @param trabalho
+     * @param projeto
+     * @param notafinal
+     * @param m1
+     * @param situacao 
+     */
 
     public Aluno(String nome, double nota1, double frequencia, double trabalho, double projeto, double notafinal, double m1, String situacao) {
         this.nome = nome;
